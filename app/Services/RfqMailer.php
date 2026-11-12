@@ -38,7 +38,7 @@ final class RfqMailer
         $mail->isHTML(true);
         $mail->Subject = 'New RFQ from ' . $rfq['name'];
         $mail->Body = $this->adminBody($rfq);
-        $mail->AltBody = "New RFQ\nName: {$rfq['name']}\nEmail: {$rfq['email']}\nPhone: {$rfq['phone']}\nDetails: {$rfq['details']}";
+        $mail->AltBody = "New RFQ\nName: {$rfq['name']}\nEmail: {$rfq['email']}\nPhone: {$rfq['phone']}\nCategory: {$rfq['category']}\nQuantity: {$rfq['quantity']}\nDetails: {$rfq['details']}";
         $mail->send();
     }
 

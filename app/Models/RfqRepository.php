@@ -33,14 +33,20 @@ final class RfqRepository
     private function saveToSqlite(array $rfq): void
     {
         $db = new SQLite3($this->storagePath . '/.km_wears.sqlite');
-        $db->exec('CREATE TABLE IF NOT EXISTS rfqs (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, email TEXT NOT NULL, phone TEXT, category TEXT, quantity INTEGER, details TEXT, created_at TEXT NOT NULL)');
-        $statement = $db->prepare('INSERT INTO rfqs (name, email, phone, category, quantity, details, created_at) VALUES (:name, :email, :phone, :category, :quantity, :details, :created_at)');
-        foreach ($rfq as $field => $value) {
-            $statement->bindValue(':' . $field, $value, $field === 'quantity' ? SQLITE3_INTEGER : SQLITE3_TEXT);
-        }
-        $statement->bindValue(':created_at', gmdate('c'), SQLITE3_TEXT);
-        if (!$statement->execute()) {
-            throw new RuntimeException('RFQ could not be saved.');
+        $db->busyTimeout(5000);
+        try {
+            $db->exec('CREATE TABLE IF NOT EXISTS rfqs (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, email TEXT NOT NULL, phone TEXT, category TEXT, quantity INTEGER, details TEXT, created_at TEXT NOT NULL)');
+            $statement = $db->prepare('INSERT INTO rfqs (name, email, phone, category, quantity, details, created_at) VALUES (:name, :email, :phone, :category, :quantity, :details, :created_at)');
+            foreach ($rfq as $field => $value) {
+                $statement->bindValue(':' . $field, $value, $field === 'quantity' ? SQLITE3_INTEGER : SQLITE3_TEXT);
+            }
+            $statement->bindValue(':created_at', gmdate('c'), SQLITE3_TEXT);
+            if (!$statement->execute()) {
+                throw new RuntimeException('RFQ could not be saved.');
+            }
+            $statement->close();
+        } finally {
+            $db->close();
         }
     }
 

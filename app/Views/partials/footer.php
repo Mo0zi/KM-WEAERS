@@ -1,98 +1,5 @@
 <?php
 ?>
-<style>
-  .custom-footer {
-    background-color: #000;
-    color: #fff;
-    padding: 70px 20px 20px;
-    font-family: 'Inter', sans-serif;
-  }
-  .custom-footer-grid {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1.2fr 1fr 1fr 1.5fr;
-    gap: 30px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    padding-bottom: 50px;
-  }
-  .custom-footer h4 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin-bottom: 25px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
-  .custom-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .custom-footer ul li {
-    margin-bottom: 15px;
-  }
-  .custom-footer ul a {
-    color: #ccc;
-    text-decoration: none;
-    transition: color 0.3s;
-    font-size: 0.95rem;
-  }
-  .custom-footer ul a:hover {
-    color: #fff;
-  }
-  .custom-footer .contact-text p {
-    margin-bottom: 12px;
-    color: #ccc;
-    font-size: 0.9rem;
-    line-height: 1.6;
-  }
-  .custom-footer .contact-text strong {
-    color: #fff;
-  }
-  .custom-footer-bottom {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 0 10px;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  .footer-logo-col {
-    display: flex;
-    justify-content: center; 
-    align-items: flex-start;
-    padding-top: 10px; 
-  }
-  .footer-logo-col a {
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  @media (max-width: 992px) {
-    .custom-footer-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-    .footer-logo-col {
-      justify-content: flex-start;
-    }
-  }
-  @media (max-width: 576px) {
-    .custom-footer-grid {
-      grid-template-columns: 1fr;
-    }
-    .custom-footer-bottom {
-      flex-direction: column;
-      text-align: center;
-      justify-content: center;
-    }
-  }
-</style>
-
 <footer class="custom-footer">
   <div class="container custom-footer-grid">
     
@@ -114,7 +21,14 @@
       </ul>
       <!-- Language Dropdown -->
       <div style="background: #fff; color: #000; padding: 8px 12px; display: inline-flex; align-items: center; border-radius: 4px; cursor: pointer; font-size: 0.9rem; font-weight: 500;">
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" alt="UK" style="width: 20px; height: 12px; margin-right: 8px; object-fit: cover;">
+        <svg width="20" height="12" viewBox="0 0 60 36" style="margin-right: 8px; border-radius: 2px; display: inline-block; vertical-align: middle;" aria-hidden="true">
+          <rect width="60" height="36" fill="#012169"/>
+          <path d="M0,0 L60,36 M60,0 L0,36" stroke="#fff" stroke-width="6"/>
+          <path d="M0,0 L60,36" stroke="#C8102E" stroke-width="4"/>
+          <path d="M60,0 L0,36" stroke="#C8102E" stroke-width="4"/>
+          <path d="M30,0 v36 M0,18 h60" stroke="#fff" stroke-width="10"/>
+          <path d="M30,0 v36 M0,18 h60" stroke="#C8102E" stroke-width="6"/>
+        </svg>
         English
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 10px;"><path d="M6 9l6 6 6-6"/></svg>
       </div>

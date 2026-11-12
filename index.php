@@ -3,7 +3,9 @@ declare(strict_types=1);
 
 if (php_sapi_name() === 'cli-server') {
     $requestPath = rawurldecode(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/');
-    if ($requestPath !== '/' && is_file(__DIR__ . $requestPath)) {
+    $isPublicAsset = (str_starts_with($requestPath, '/images/') && !str_contains($requestPath, '..'))
+        || in_array($requestPath, ['/index.css', '/app.js', '/robots.txt', '/sitemap.xml', '/favicon.ico'], true);
+    if ($isPublicAsset && is_file(__DIR__ . $requestPath)) {
         return false;
     }
 }

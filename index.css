@@ -2187,3 +2187,97 @@ body:hover .cursor.is-visible, body:hover .cursor-follower.is-visible { opacity:
   .scroll-progress { background: Highlight; }
   .glass-card, .solution-card, .testimonial-card { border: 1px solid CanvasText; }
 }
+
+/* =========================================
+   CUSTOM FOOTER
+   ========================================= */
+.custom-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 70px 20px 20px;
+  font-family: 'Inter', sans-serif;
+}
+.custom-footer-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1.5fr;
+  gap: 30px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 50px;
+}
+.custom-footer h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.custom-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.custom-footer ul li {
+  margin-bottom: 15px;
+}
+.custom-footer ul a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 0.95rem;
+}
+.custom-footer ul a:hover {
+  color: #fff;
+}
+.custom-footer .contact-text p {
+  margin-bottom: 12px;
+  color: #ccc;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.custom-footer .contact-text strong {
+  color: #fff;
+}
+.custom-footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer-logo-col {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  padding-top: 10px; 
+}
+.footer-logo-col a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .custom-footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-logo-col {
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 576px) {
+  .custom-footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .custom-footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+}

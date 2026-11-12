@@ -96,6 +96,40 @@ final class PageController
             $_SESSION['rfq_attempts'] = $attempts;
             return false;
         }
+
+        // IP-keyed rate limiting to protect against session reset evasion
+        $ip = (string) ($_SERVER['REMOTE_ADDR'] ?? '127.0.0.1');
+        $rateLimitFile = sys_get_temp_dir() . '/km_wears_rfq_rate_limits.json';
+        $fh = @fopen($rateLimitFile, 'c+');
+        if ($fh && flock($fh, LOCK_EX)) {
+            $raw = stream_get_contents($fh);
+            $all = $raw ? json_decode($raw, true) : [];
+            if (!is_array($all)) {
+                $all = [];
+            }
+            $ipAttempts = array_filter($all[$ip] ?? [], static fn (int $time): bool => $time > $now - 3600);
+            if (count($ipAttempts) >= 5) {
+                flock($fh, LOCK_UN);
+                fclose($fh);
+                return false;
+            }
+            $ipAttempts[] = $now;
+            $all[$ip] = $ipAttempts;
+            // Purge expired records
+            foreach ($all as $key => $times) {
+                $all[$key] = array_filter($times, static fn (int $t): bool => $t > $now - 3600);
+                if (empty($all[$key])) {
+                    unset($all[$key]);
+                }
+            }
+            rewind($fh);
+            ftruncate($fh, 0);
+            fwrite($fh, json_encode($all));
+            fflush($fh);
+            flock($fh, LOCK_UN);
+            fclose($fh);
+        }
+
         $attempts[] = $now;
         $_SESSION['rfq_attempts'] = $attempts;
         return true;
