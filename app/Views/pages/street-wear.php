@@ -158,11 +158,16 @@
     }
     .static-item img {
       width: 100%;
-      height: 300px;
-      object-fit: contain;
-      border-radius: 8px;
-      background: #fff;
-      padding: 10px;
+      height: 340px;
+      object-fit: cover;
+      border-radius: 12px;
+      background: #111;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: transform 0.4s ease, border-color 0.4s ease;
+    }
+    .static-item:hover img {
+      transform: translateY(-4px);
+      border-color: var(--red-accent);
     }
     .static-item h3 {
       font-size: 1.1rem;
@@ -256,46 +261,46 @@
     <div class="static-product-scroller" id="productScroller">
       <!-- Original Set -->
       <div class="static-item">
-        <img src="images/cat_streetwear.png" alt="Oversize T-Shirt">
-        <h3>Oversize T-Shirt</h3>
+        <img src="images/streetwear_oversized_hoodie.jpg" alt="Oversized Hoodie" loading="lazy">
+        <h3>Oversized Hoodie</h3>
       </div>
       <div class="static-item">
-        <img src="images/embroidery.png" alt="Oversize Hoodie">
-        <h3>Oversize Hoodie</h3>
-      </div>
-      <div class="static-item">
-        <img src="images/printing.png" alt="Oversize Acid-Wash Hoodie">
-        <h3>Oversize Acid-Wash Hoodie</h3>
-      </div>
-      <div class="static-item">
-        <img src="images/patternmaking.png" alt="Cotton Denim Oversize Jacket">
-        <h3>Cotton Denim Oversize Jacket</h3>
-      </div>
-      <div class="static-item">
-        <img src="images/finishing.jpg" alt="Cargo Pants">
+        <img src="images/streetwear_cargo_pants.jpg" alt="Cargo Pants" loading="lazy">
         <h3>Cargo Pants</h3>
+      </div>
+      <div class="static-item">
+        <img src="images/streetwear_oversized_tshirt.jpg" alt="Oversized T-Shirt" loading="lazy">
+        <h3>Oversized T-Shirt</h3>
+      </div>
+      <div class="static-item">
+        <img src="images/streetwear_oversized_acid_wash.jpg" alt="Oversized Acid Wash" loading="lazy">
+        <h3>Oversized Acid Wash</h3>
+      </div>
+      <div class="static-item">
+        <img src="images/streetwear_cotton_denim_jacket.jpg" alt="Cotton Denim Oversized Jacket" loading="lazy">
+        <h3>Cotton Denim Oversized Jacket</h3>
       </div>
 
       <!-- Duplicated Set for infinite loop -->
       <div class="static-item">
-        <img src="images/cat_streetwear.png" alt="Oversize T-Shirt">
-        <h3>Oversize T-Shirt</h3>
+        <img src="images/streetwear_oversized_hoodie.jpg" alt="Oversized Hoodie" loading="lazy">
+        <h3>Oversized Hoodie</h3>
       </div>
       <div class="static-item">
-        <img src="images/embroidery.png" alt="Oversize Hoodie">
-        <h3>Oversize Hoodie</h3>
-      </div>
-      <div class="static-item">
-        <img src="images/printing.png" alt="Oversize Acid-Wash Hoodie">
-        <h3>Oversize Acid-Wash Hoodie</h3>
-      </div>
-      <div class="static-item">
-        <img src="images/patternmaking.png" alt="Cotton Denim Oversize Jacket">
-        <h3>Cotton Denim Oversize Jacket</h3>
-      </div>
-      <div class="static-item">
-        <img src="images/finishing.jpg" alt="Cargo Pants">
+        <img src="images/streetwear_cargo_pants.jpg" alt="Cargo Pants" loading="lazy">
         <h3>Cargo Pants</h3>
+      </div>
+      <div class="static-item">
+        <img src="images/streetwear_oversized_tshirt.jpg" alt="Oversized T-Shirt" loading="lazy">
+        <h3>Oversized T-Shirt</h3>
+      </div>
+      <div class="static-item">
+        <img src="images/streetwear_oversized_acid_wash.jpg" alt="Oversized Acid Wash" loading="lazy">
+        <h3>Oversized Acid Wash</h3>
+      </div>
+      <div class="static-item">
+        <img src="images/streetwear_cotton_denim_jacket.jpg" alt="Cotton Denim Oversized Jacket" loading="lazy">
+        <h3>Cotton Denim Oversized Jacket</h3>
       </div>
     </div>
   </div>

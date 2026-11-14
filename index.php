@@ -53,11 +53,21 @@ $pages = [
     '/' => 'home',
     '/index.php' => 'home',
     '/fashion-wear.php' => 'fashion-wear',
+    '/fashion-wear' => 'fashion-wear',
+    '/fashionwear' => 'fashion-wear',
     '/sports-wear.php' => 'sports-wear',
+    '/sports-wear' => 'sports-wear',
+    '/sportswear' => 'sports-wear',
     '/street-wear.php' => 'street-wear',
+    '/street-wear' => 'street-wear',
+    '/streetwear' => 'street-wear',
     '/work-wear.php' => 'work-wear',
+    '/work-wear' => 'work-wear',
+    '/workwear' => 'work-wear',
     '/privacy-policy.php' => 'privacy-policy',
+    '/privacy-policy' => 'privacy-policy',
     '/terms-of-service.php' => 'terms-of-service',
+    '/terms-of-service' => 'terms-of-service',
 ];
 
 if (isset($pages[$path])) {
