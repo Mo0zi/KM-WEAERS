@@ -180,28 +180,28 @@
 
     <div class="cat-grid">
       <div class="cat-item reveal-up">
-        <img src="images/cat_sportswear.png" alt="Hoodies" class="cat-img">
+        <img src="images/sportswear_team_jersey.jpg" alt="Team Jerseys" class="cat-img" loading="lazy">
         <div class="cat-info">
           <h3>Team Jerseys</h3>
           <p style="color: var(--text-muted); font-size: 0.95rem;">Moisture-wicking performance knits</p>
         </div>
       </div>
       <div class="cat-item reveal-up" style="transition-delay: 0.1s;">
-        <img src="images/printing.png" alt="T-Shirts" class="cat-img">
+        <img src="images/sportswear_training_top.jpg" alt="Training Tops" class="cat-img" loading="lazy">
         <div class="cat-info">
           <h3>Training Tops</h3>
           <p style="color: var(--text-muted); font-size: 0.95rem;">Lightweight and breathable fabrics</p>
         </div>
       </div>
       <div class="cat-item reveal-up" style="transition-delay: 0.2s;">
-        <img src="images/patternmaking.png" alt="Bottoms" class="cat-img">
+        <img src="images/sportswear_shorts_leggings.jpg" alt="Leggings & Shorts" class="cat-img" loading="lazy">
         <div class="cat-info">
           <h3>Leggings & Shorts</h3>
           <p style="color: var(--text-muted); font-size: 0.95rem;">Four-way stretch and compression</p>
         </div>
       </div>
       <div class="cat-item reveal-up" style="transition-delay: 0.3s;">
-        <img src="images/finishing.jpg" alt="Jackets" class="cat-img">
+        <img src="images/sportswear_tracksuit_layers.jpg" alt="Tracksuits & Layers" class="cat-img" loading="lazy">
         <div class="cat-info">
           <h3>Tracksuits & Layers</h3>
           <p style="color: var(--text-muted); font-size: 0.95rem;">Warm-up jackets and pants</p>
