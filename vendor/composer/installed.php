@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'km-wears/website',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '6d324dbfc4687185affd75c188eb8e6b378a1372',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'km-wears/website' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '6d324dbfc4687185affd75c188eb8e6b378a1372',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

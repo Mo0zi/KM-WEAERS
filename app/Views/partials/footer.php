@@ -49,7 +49,7 @@
     <div>
       <h4>Keep in touch with us</h4>
       <div class="contact-text" style="margin-bottom: 25px;">
-        <p><strong>Call Us:</strong> +923480074374</p>
+        <p><strong>Call Us:</strong> +923376333224</p>
         <p><strong>Email:</strong><br>kmwearofficial@gmail.com</p>
       </div>
       <div class="contact-text">
@@ -68,10 +68,10 @@
       <a href="https://www.tiktok.com/@km_wears" target="_blank" rel="noopener noreferrer" aria-label="TikTok" style="color: #fff; transition: opacity 0.3s;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg></a>
       <a href="https://www.instagram.com/km_wears/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="color: #fff; transition: opacity 0.3s;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"></path></svg></a>
       <a href="https://www.linkedin.com/company/102901404" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style="color: #fff; transition: opacity 0.3s;"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg></a>
-      <a href="https://wa.me/923480074374" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" style="color: #fff; transition: opacity 0.3s;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></a>
+      <a href="https://wa.me/923376333224" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" style="color: #fff; transition: opacity 0.3s;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></a>
       
       <!-- Large WhatsApp Green Bubble -->
-      <a href="https://wa.me/923480074374" target="_blank" rel="noopener noreferrer" style="background: #25D366; color: white; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; border-radius: 50%; text-decoration: none; margin-left: 10px; transition: transform 0.3s;">
+      <a href="https://wa.me/923376333224" target="_blank" rel="noopener noreferrer" style="background: #25D366; color: white; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; border-radius: 50%; text-decoration: none; margin-left: 10px; transition: transform 0.3s;">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
       </a>
     </div>

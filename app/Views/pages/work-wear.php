@@ -349,7 +349,7 @@
         <p style="color: rgba(255,255,255,0.75); font-size: 0.95rem;">Get a free quote within 12 hours. Min MOQ 10 pcs.</p>
       </div>
       <div style="display: flex; gap: 16px; flex-wrap: wrap;">
-        <a href="https://wa.me/923480074374?text=Hi%2C%20I%27m%20interested%20in%20Work%20Wear%20manufacturing%20with%20KM%20WEARS." target="_blank" rel="noopener noreferrer" class="btn-whatsapp-cta magnetic">
+        <a href="https://wa.me/923376333224?text=Hi%2C%20I%27m%20interested%20in%20Work%20Wear%20manufacturing%20with%20KM%20WEARS." target="_blank" rel="noopener noreferrer" class="btn-whatsapp-cta magnetic">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0;"><path d="M12 2C6.477 2 2 6.477 2 12c0 1.884.52 3.654 1.423 5.176L2.04 21.724a.5.5 0 00.636.636l4.548-1.383A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18c-1.505 0-2.927-.41-4.147-1.12l-.29-.17-3.007.915.929-2.947-.19-.302A7.96 7.96 0 014 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z"/></svg>
           WhatsApp Us Now
         </a>
@@ -362,7 +362,7 @@
 
   <!-- Sticky Actions (WhatsApp CTA) -->
   <div class="sticky-actions">
-    <a href="https://wa.me/923480074374" class="float-btn float-whatsapp magnetic" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/923376333224" class="float-btn float-whatsapp magnetic" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
         <path d="M12 2C6.477 2 2 6.477 2 12c0 1.884.52 3.654 1.423 5.176L2.04 21.724a.5.5 0 00.636.636l4.548-1.383A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm.05 18.25c-1.573 0-3.094-.416-4.44-1.207a.5.5 0 00-.472-.036l-2.9 0.883 0.883-2.9a.5.5 0 00-.036-.472c-.791-1.346-1.207-2.867-1.207-4.44 0-4.825 3.925-8.75 8.75-8.75s8.75 3.925 8.75 8.75-3.925 8.75-8.75 8.75z"/>
       </svg>
