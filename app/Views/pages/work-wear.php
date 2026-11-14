@@ -180,30 +180,30 @@
 
     <div class="cat-grid">
       <div class="cat-item reveal-up">
-        <img src="images/cat_workwear.png" alt="Hoodies" class="cat-img">
+        <img src="images/workwear_hivis_hoodie.jpg" alt="Hi-Vis Workwear" class="cat-img" loading="lazy">
         <div class="cat-info">
-          <h3>Uniform Shirts</h3>
-          <p style="color: var(--text-muted); font-size: 0.95rem;">Polos, shirts and branded basics</p>
+          <h3>Hi-Vis Workwear</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">Visibility trims and safety compliant fabrics</p>
         </div>
       </div>
       <div class="cat-item reveal-up" style="transition-delay: 0.1s;">
-        <img src="images/labeling.png" alt="T-Shirts" class="cat-img">
+        <img src="images/workwear_uniform_shirt.jpg" alt="Uniform Shirts" class="cat-img" loading="lazy">
         <div class="cat-info">
-          <h3>Hi-Vis Workwear</h3>
-          <p style="color: var(--text-muted); font-size: 0.95rem;">Visibility trims and durable fabrics</p>
+          <h3>Uniform Shirts</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">Polos, shirts and custom branded basics</p>
         </div>
       </div>
       <div class="cat-item reveal-up" style="transition-delay: 0.2s;">
-        <img src="images/cutting.jpg" alt="Bottoms" class="cat-img">
+        <img src="images/workwear_cargo_trousers.jpg" alt="Cargo Trousers" class="cat-img" loading="lazy">
         <div class="cat-info">
           <h3>Cargo Trousers</h3>
           <p style="color: var(--text-muted); font-size: 0.95rem;">Reinforced panels and utility pockets</p>
         </div>
       </div>
       <div class="cat-item reveal-up" style="transition-delay: 0.3s;">
-        <img src="images/finishing.jpg" alt="Jackets" class="cat-img">
+        <img src="images/workwear_jacket_overalls.jpg" alt="Overalls & Jackets" class="cat-img" loading="lazy">
         <div class="cat-info">
-          <h3>Coveralls & Jackets</h3>
+          <h3>Overalls & Jackets</h3>
           <p style="color: var(--text-muted); font-size: 0.95rem;">Industrial layers and weather protection</p>
         </div>
       </div>
