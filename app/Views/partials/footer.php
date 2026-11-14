@@ -42,7 +42,6 @@
         <li><a href="mailto:kmwearofficial@gmail.com">Contact</a></li>
         <li><a href="index.php#services">Services</a></li>
         <li><a href="index.php#products">Portfolio</a></li>
-        <li><a href="index.php#about">About</a></li>
       </ul>
     </div>
 

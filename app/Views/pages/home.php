@@ -82,7 +82,6 @@
       </a>
       <nav aria-label="Main Navigation">
         <ul class="nav-menu" id="nav-links">
-          <li><a href="#about" class="nav-link magnetic">About</a></li>
           <li><a href="#products" class="nav-link magnetic">Products</a></li>
           <li><a href="#services" class="nav-link magnetic">Services</a></li>
           <li><a href="#process" class="nav-link magnetic">Process</a></li>
@@ -230,49 +229,7 @@
 
 
 
-  <!-- What We Do Section -->
-  <section class="section solutions-section" id="about" style="border-top: 1px solid var(--border-color); background: var(--bg-deep);">
-    <div class="container">
-      <div class="solutions-heading" style="text-align: center; margin-bottom: 60px;">
-        <span style="color: var(--red-accent); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.12em;">WHAT WE DO</span>
-        <h2 style="font-weight: 800; margin-top: 6px;">End-to-End Manufacturing Solutions</h2>
-        <p style="color: var(--text-secondary); font-size: 0.95rem; max-width: 600px; margin: 10px auto 0;">Everything you need to build a successful clothing brand.</p>
-      </div>
-      
-      <div class="solutions-grid">
-        <div class="solution-card reveal-up">
-          <svg class="solution-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.656 48.656 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3M12 3v18m0-18L9 6m3-3l3 3M4.5 12l3 3m-3-3l-3 3"></path></svg>
-          <h3>OEM Manufacturing</h3>
-          <p>Bring your designs, we'll handle the rest.</p>
-        </div>
-        <div class="solution-card reveal-up">
-          <svg class="solution-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 7h10M7 12h10m-3 5h3M4 6h16a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2z"></path></svg>
-          <h3>Private Label</h3>
-          <p>Build your brand with our expert team.</p>
-        </div>
-        <div class="solution-card reveal-up">
-          <svg class="solution-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
-          <h3>Custom Design & Sampling</h3>
-          <p>From tech pack to perfect sample.</p>
-        </div>
-        <div class="solution-card reveal-up">
-          <svg class="solution-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-          <h3>Printing & Embroidery</h3>
-          <p>DTG, Screen, Sublimation, Embroidery & more.</p>
-        </div>
-        <div class="solution-card reveal-up">
-          <svg class="solution-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
-          <h3>Packaging Solutions</h3>
-          <p>Custom labels, tags & packaging.</p>
-        </div>
-        <div class="solution-card reveal-up">
-          <svg class="solution-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 002 2h1.5A1.5 1.5 0 0018 10.5V9.75A2.75 2.75 0 0120.75 7h.045M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path></svg>
-          <h3>Global Logistics</h3>
-          <p>Worldwide shipping made simple.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Categories Showcase Section -->
   <section class="section" id="products">

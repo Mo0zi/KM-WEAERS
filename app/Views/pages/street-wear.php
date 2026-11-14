@@ -207,7 +207,6 @@
       </a>
       <nav aria-label="Main Navigation">
         <ul class="nav-menu" id="nav-links">
-          <li><a href="index.php#about" class="nav-link magnetic">About</a></li>
           <li><a href="index.php#products" class="nav-link magnetic">Products</a></li>
           <li><a href="index.php#services" class="nav-link magnetic">Services</a></li>
           <li><a href="index.php#process" class="nav-link magnetic">Process</a></li>
